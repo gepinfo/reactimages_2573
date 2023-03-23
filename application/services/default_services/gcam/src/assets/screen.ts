@@ -7,5 +7,7 @@
 {"resources":"sefscreen", "role":"Guest"}
     ,
 {"resources":"test", "role":"Guest"}
+    ,
+{"resources":"templatesadd", "role":"Guest"}
     
 ]

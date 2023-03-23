@@ -27,6 +27,7 @@ let routes: any = [
 { path: '/usermanagement', component: User },
 { path: '/profile', component: ProfilesettingsComponent },
 { path : '/test', component: lazy(()=>import('./app/test/test')) },
+{ path : '/templatesadd', component: lazy(()=>import('./app/templatesadd/templatesadd')) },
 { path: "", component: Template }
 
 ];
