@@ -225,7 +225,7 @@ services:
     image: systementry-2573
     container_name: systementry-2573
     ports: 
-      - 8020:8020
+      - 8022:8022
     env_file: .env
     depends_on:
       - mongo
@@ -244,7 +244,7 @@ services:
     image: test-2573
     container_name: test-2573
     ports: 
-      - 8021:8021
+      - 8023:8023
     env_file: .env
     depends_on:
       - mongo
